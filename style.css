@@ -1,64 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: linear-gradient(to right, #111111, #7a0000);
+  font-family: "Germania One", system-ui;
+  color: #D4AF37;
+  text-align: center;
+  padding: 20px;
 }
 
-.card{
-    text-align: center;
+.card {
+  max-width: 600px;
+  margin: auto;
 }
 
-.title{
-    text-align: center; 
+.title {
+  margin-bottom: 20px;
 }
 
-.image{
-    width: 300px;
-    border-radius: 500px;
-    border: 10px solid rgb(52, 29, 29);
+.image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: 8px solid #341d1d;
 }
 
-h1{
-    text-decoration: underline;
-    font-family: "Germania One", system-ui;
-    font-weight: 900;
-    font-style: normal;
-color: #D4AF37;
-    
+h1 {
+  text-decoration: underline;
+  font-weight: 900;
+  margin: 15px 0;
 }
 
-h2{
-    font-family: "Germania One", system-ui;
-    font-weight: 500;
-    font-style: normal;
-color: #D4AF37;
+h2 {
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
-p{
-    font-family: "Germania One", system-ui;
-    font-weight: 200;
-    font-style: normal;
-color: #D4AF37;
+p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 10px 0;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .buttons a {
-  padding: 12px 25px;
+  padding: 10px 20px;
   background: linear-gradient(45deg, #000000, #dd0000);
-  color: #ffce00 !important; /* gold text */
+  color: #ffce00;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: bold;
-  transition: 0.3s ease;
   border: 2px solid #ffce00;
+  transition: all 0.3s ease;
 }
 
 .buttons a:hover {
   background: linear-gradient(45deg, #dd0000, #ffce00);
   color: #000000;
-  transform: translateY(-3px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
 }
