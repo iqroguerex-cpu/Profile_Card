@@ -87,7 +87,7 @@ This project was built to practice:
 
 ## 👤 Author
 
-**Chinmay V Chatradamath**  
+**Chinmay V Chatradamath.**  
 
 ---
 
